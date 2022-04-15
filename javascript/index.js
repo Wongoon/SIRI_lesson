@@ -3,7 +3,7 @@ jQuery(document).ready(function(){
         var tab_id = $(this).attr('data-tab');
         
         $('ul.tabnav_ul li').removeClass('current');
-        $('.tab-content').removeClass('current');
+        $('.tab_content').removeClass('current');
 
         $(this).addClass('current');
         $("#"+tab_id).addClass('current');

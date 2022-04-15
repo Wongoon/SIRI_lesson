@@ -1,0 +1,50 @@
+@import url(reset.css);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section div{
+    display: flex;
+    width:800px;
+    height:800px;
+    border:2px solid #000;
+}
+span{
+    display: block;
+    width:200px;
+    height:200px;
+    border: 1px solid #000;
+}
+.tabmenu{
+    margin-bottom:10px;
+}
+.tab_link{
+    width:100px;
+    height:40px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    list-style: none;
+    cursor: pointer;
+    line-height: 40px;
+    border: 1px solid #aaa;
+    transition: all 0.5s ease-in;
+}
+.tab_link:hover{
+    color:#f68500;
+}
+.tab_link.current{
+    border-top:2px solid #f68500;
+    color:#f68500;
+}
+.tab_content{
+    display: none;
+}
+.tab_content.current{
+    display: inherit;
+}
+.tab_content .display{
+    justify-content: center;
+}
