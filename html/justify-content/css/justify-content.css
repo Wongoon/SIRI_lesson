@@ -1,0 +1,73 @@
+@import url(../../../css/reset.css);
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    flex-wrap:wrap;
+}
+.tabmenu{
+    margin-bottom:5px;
+}
+.tab_content{
+    display: none;
+}
+.tab_content.current{
+    display: flex;
+}
+.tab_link{
+    display: inline-block;
+    background-color: white;
+    color:#aaa;
+    padding:20px 40px;
+    cursor: pointer;
+    border:1px solid #aaa;
+    transition:0.5s ease all;
+}
+.tab_link:hover{
+    color:#f68500;
+}
+.tab_link.current{
+    color:#f68500;
+    border-bottom:3px solid #f68500;
+}
+section > div{
+    display: flex;
+    align-items: center;
+    width:1400px;
+    height:600px;
+    border:1px solid #000;
+}
+section > div > span{
+    display: block;
+    width:200px;
+    height:200px;
+}
+section > div > span:nth-child(1){
+    background-color: #f00;
+}
+section > div > span:nth-child(2){
+    background-color: #ff0;
+}
+section > div > span:nth-child(3){
+    background-color: #0ff;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}

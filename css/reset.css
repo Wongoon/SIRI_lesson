@@ -8,16 +8,27 @@
     color:#000;
 }
 body{
-    background: linear-gradient(45deg, #141e30, #324577);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
+    box-sizing: border-box;
 }
 ul, ol, li{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+a ion-icon{
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size:4em;
+    color:#555;
+    transition: 0.5s ease all;
+}
+a ion-icon:hover{
+    color:#000;
 }

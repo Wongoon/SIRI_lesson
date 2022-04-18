@@ -1,0 +1,62 @@
+@import url(../../../css/reset.css);
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+}
+.tabmenu{
+    margin-bottom:5px;
+}
+.tab_content{
+    display: none;
+}
+.tab_content.current{
+    display: inherit;
+}
+.tab_link{
+    display: inline-block;
+    background-color: white;
+    color:#aaa;
+    padding:20px 40px;
+    cursor: pointer;
+    border:1px solid #aaa;
+    transition:0.5s ease all;
+}
+.tab_link:hover{
+    color:#f68500;
+}
+.tab_link.current{
+    color:#f68500;
+    border-bottom:3px solid #f68500;
+}
+section > div{
+    display: flex;
+    width:250px;
+    border:1px solid #000;
+}
+section > div > span{
+    display: block;
+    width:250px;
+    height:250px;
+}
+section > div > span:nth-child(1){
+    background-color: #f00;
+}
+section > div > span:nth-child(2){
+    background-color: #ff0;
+}
+section > div > span:nth-child(3){
+    background-color: #0ff;
+}
+.nowrap{
+    flex-wrap:nowrap;
+}
+.wrap{
+    flex-wrap:wrap;
+}
+.wrap-reverse{
+    flex-wrap:wrap-reverse;
+}
