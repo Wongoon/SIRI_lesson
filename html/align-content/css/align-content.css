@@ -35,35 +35,40 @@
 section > div{
     display: flex;
     align-items: center;
-    width:750px;
-    height:750px;
+    flex-direction: column;
+    width:300px;
+    height:850px;
     border:1px solid #000;
 }
 section > div > span{
     display: block;
-    width:250px;
+    width:150px;
+    height:150px;
 }
 section > div > span:nth-child(1){
     background-color: #f00;
-    height:250px;
 }
 section > div > span:nth-child(2){
     background-color: #ff0;
-    height:300px;
 }
 section > div > span:nth-child(3){
     background-color: #0ff;
-    height:200px;
 }
 .flex-start{
-    align-items: flex-start;
+    justify-content: flex-start;
 }
 .flex-end{
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 .center{
-    align-items: center;
+    justify-content: center;
 }
-.baseline{
-    align-items: baseline;
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
 }
