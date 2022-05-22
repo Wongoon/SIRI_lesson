@@ -3,9 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width:100%;
     height:100%;
-    flex-wrap:wrap;
 }
 .tabmenu{
     margin-bottom:5px;
@@ -35,7 +35,7 @@
 section > div{
     display: flex;
     align-items: center;
-    width:1200px;
+    width:1000px;
     height:600px;
     border:1px solid #000;
 }
