@@ -20,7 +20,7 @@
     display: inline-block;
     background-color: white;
     color:#aaa;
-    padding:20px 40px;
+    padding:10px 20px;
     cursor: pointer;
     border:1px solid #aaa;
     transition:0.5s ease all;
@@ -35,7 +35,7 @@
 section > div{
     display: flex;
     align-items: center;
-    width:1400px;
+    width:1200px;
     height:600px;
     border:1px solid #000;
 }
