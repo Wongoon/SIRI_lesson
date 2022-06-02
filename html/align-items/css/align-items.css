@@ -44,15 +44,15 @@ section > div > span{
     width:250px;
 }
 section > div > span:nth-child(1){
-    background-color: #f00;
+    background-color: #f55;
     height:250px;
 }
 section > div > span:nth-child(2){
-    background-color: #ff0;
+    background-color: #5f5;
     height:300px;
 }
 section > div > span:nth-child(3){
-    background-color: #0ff;
+    background-color: #55f;
     height:200px;
 }
 .flex-start{

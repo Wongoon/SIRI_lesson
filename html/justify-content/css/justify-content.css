@@ -45,13 +45,13 @@ section > div > span{
     height:200px;
 }
 section > div > span:nth-child(1){
-    background-color: #f00;
+    background-color: #f55;
 }
 section > div > span:nth-child(2){
-    background-color: #ff0;
+    background-color: #5f5;
 }
 section > div > span:nth-child(3){
-    background-color: #0ff;
+    background-color: #55f;
 }
 .flex-start{
     justify-content: flex-start;
